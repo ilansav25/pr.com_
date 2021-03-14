@@ -1,2 +1,2 @@
-# pr.com_
- maven and selenium project
+# pr.com
+Payioneer project of testing with Selenium
