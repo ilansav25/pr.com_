@@ -24,7 +24,6 @@ import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 
-
 public class Sanity {
 
 	// Global variables
@@ -40,8 +39,6 @@ public class Sanity {
 	private Main main;
 
 	private static final Logger logger = LogManager.getLogger(Sanity.class);
-	
-	
 
 	@BeforeClass
 	public void beforeClass() {
@@ -52,7 +49,7 @@ public class Sanity {
 		driver = GetDriver.getDriver("chrome", baseUrl);
 
 		main = new Main(driver);
-		//BasicConfigurator.configure();
+		// BasicConfigurator.configure();
 		logger.info("Before Class");
 
 	}
@@ -89,8 +86,8 @@ public class Sanity {
 
 	@Test(priority = 4, enabled = true, description = "verify date")
 	public void verifyURL() throws InterruptedException, IOException {
-		logger.info("******verify page URL");
-		Assert.assertTrue(main.verifyFilterInLookingField_1());
+		logger.info("****verify page URL");
+		Assert.assertTrue(main.verifyURL());
 	}
 
 	@AfterMethod

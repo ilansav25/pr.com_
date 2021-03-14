@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="21.936" tests="14" errors="0" skipped="13" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="34.774" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="15"/>
     <property name="webdriver.chrome.driver" value="C:\jars\chrome\chromedriver.exe"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="C:\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.1.v20201027-0507\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\Brunec\AppData\Local\Temp\surefire12723099035829823165\surefirebooter9045259214430406256.jar C:\Users\Brunec\AppData\Local\Temp\surefire12723099035829823165 2021-03-14T19-19-18_672-jvmRun1 surefire10217983972466671535tmp surefire_03896080398532318038tmp"/>
+    <property name="sun.java.command" value="C:\Users\Brunec\AppData\Local\Temp\surefire11630961264082060708\surefirebooter7223746310927376449.jar C:\Users\Brunec\AppData\Local\Temp\surefire11630961264082060708 2021-03-14T19-46-07_479-jvmRun1 surefire15993478843615200318tmp surefire_03017783213409879432tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Brunec\eclipse-ws04\pr.com\target\test-classes;C:\Users\Brunec\eclipse-ws04\pr.com\target\classes;C:\Users\Brunec\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Brunec\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Brunec\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Brunec\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Brunec\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Brunec\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Brunec\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Brunec\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Brunec\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Brunec\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Brunec\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Brunec\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Brunec\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Brunec\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Brunec\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Brunec\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Brunec\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Brunec\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Brunec\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Brunec\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Brunec\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\Brunec\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Brunec\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\Brunec\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\Brunec\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\Brunec\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\Brunec\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\Brunec\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\Brunec\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\Brunec\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\Brunec\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Brunec\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\Brunec\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\Brunec\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\Brunec\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\Brunec\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;C:\Users\Brunec\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Brunec\AppData\Local\Temp\surefire12723099035829823165\surefirebooter9045259214430406256.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Brunec\AppData\Local\Temp\surefire11630961264082060708\surefirebooter7223746310927376449.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="15.0.1+9-18"/>
@@ -56,65 +56,23 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="59.0"/>
   </properties>
-  <testcase name="beforeClass" classname="tests.Sanity" time="21.306">
-    <failure message="timeout: Timed out receiving message from renderer: 14.297&#10;  (Session info: chrome=89.0.4389.82)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-0FNJT7K&apos;, ip: &apos;10.0.0.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\Brunec\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50012}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: af27e1097baae8c02222f5fd89948065" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
-timeout: Timed out receiving message from renderer: 14.297
-  (Session info: chrome=89.0.4389.82)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-0FNJT7K', ip: '10.0.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\Brunec\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50012}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: af27e1097baae8c02222f5fd89948065
-	at tests.Sanity.beforeClass(Sanity.java:52)
-]]></failure>
-    <system-err><![CDATA[Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 35708
+  <testcase name="goToRegister" classname="tests.Sanity" time="11.215">
+    <system-err><![CDATA[Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 10205
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1615742367.071][WARNING]: This version of ChromeDriver has not been tested with Chrome version 89.
-мар. 14, 2021 7:19:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1615743974.549][WARNING]: This version of ChromeDriver has not been tested with Chrome version 89.
+мар. 14, 2021 7:46:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-[1615742382.956][SEVERE]: Timed out receiving message from renderer: 14.297
-[1615742382.999][SEVERE]: Timed out receiving message from renderer: 14.297
+log4j:WARN No appenders could be found for logger (tests.Sanity).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
 ]]></system-err>
   </testcase>
-  <testcase name="beforeMethod" classname="tests.Sanity" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="beforeMethod" classname="tests.Sanity" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="beforeMethod" classname="tests.Sanity" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="beforeMethod" classname="tests.Sanity" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="goToRegister" classname="tests.Sanity" time="0">
-    <skipped message="timeout: Timed out receiving message from renderer: 14.297&#10;  (Session info: chrome=89.0.4389.82)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-0FNJT7K&apos;, ip: &apos;10.0.0.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\Brunec\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50012}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: af27e1097baae8c02222f5fd89948065"/>
-  </testcase>
-  <testcase name="afterMethod" classname="tests.Sanity" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="afterMethod" classname="tests.Sanity" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="afterMethod" classname="tests.Sanity" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="afterMethod" classname="tests.Sanity" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="selectAccountTypeIM" classname="tests.Sanity" time="0">
-    <skipped message="timeout: Timed out receiving message from renderer: 14.297&#10;  (Session info: chrome=89.0.4389.82)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-0FNJT7K&apos;, ip: &apos;10.0.0.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\Brunec\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50012}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: af27e1097baae8c02222f5fd89948065"/>
-  </testcase>
-  <testcase name="selectAccountTypeLookingTo" classname="tests.Sanity" time="0">
-    <skipped message="timeout: Timed out receiving message from renderer: 14.297&#10;  (Session info: chrome=89.0.4389.82)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-0FNJT7K&apos;, ip: &apos;10.0.0.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\Brunec\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50012}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: af27e1097baae8c02222f5fd89948065"/>
-  </testcase>
-  <testcase name="verifyURL" classname="tests.Sanity" time="0">
-    <skipped message="timeout: Timed out receiving message from renderer: 14.297&#10;  (Session info: chrome=89.0.4389.82)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-0FNJT7K&apos;, ip: &apos;10.0.0.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\Brunec\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50012}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: af27e1097baae8c02222f5fd89948065"/>
-  </testcase>
-  <testcase name="afterClass" classname="tests.Sanity" time="0">
-    <skipped/>
+  <testcase name="selectAccountTypeIM" classname="tests.Sanity" time="2.738"/>
+  <testcase name="selectAccountTypeLookingTo" classname="tests.Sanity" time="0.335"/>
+  <testcase name="verifyURL" classname="tests.Sanity" time="0.057">
+    <system-out><![CDATA[URL is valid
+]]></system-out>
   </testcase>
 </testsuite>
