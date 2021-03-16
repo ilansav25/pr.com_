@@ -32,7 +32,7 @@ public class Main extends Base {
 	}
 
 	// verify field 1 is shown
-	public boolean verifyFilterInLookingField_1() throws InterruptedException {
+	public boolean verifyFilterInLookingField() throws InterruptedException {
 		click(By.cssSelector(".dropdown.custom-select.step-two"));
 
 		WebElement we1 = driver.findElement(By.xpath("//div[@id=\"other\"]/div[2]/div/div/ul/li[1]"));
